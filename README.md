@@ -20,6 +20,8 @@ print $color_difference . chr(10);
 Example usage for getting closest color in a palette:
 ```php
 <?php
+include('lib/color_difference.class.php');
+
 $palette = array(
   '00' => array(255, 255, 255),
   '01' => array(0, 0, 0),
